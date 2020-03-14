@@ -1,15 +1,21 @@
-☐ 2.5 Create a link to each of the following:
-    1. The file index.html, located in the files directory.
+✔ 2.5 Create a link to each of the following: @done(20-03-14 10:02)
+    http://prism.troy.edu/rcoones/cs4443/discussion1/html/index.html
+    ✔ 1. The file index.html, located in the files directory. @done(20-03-14 09:57)
             where is this file located?
                 ✘ maybe it was in a previous question? @cancelled(20-03-14 08:42)
                 ✘ maybe they are in the source files? @cancelled(20-03-14 08:44)
-                maybe its just the markup and not something to publish?
+                ✘ maybe its just the markup and not something to publish? @cancelled(20-03-14 09:49)
                     i am going to operate under this assumption
-    2. The file index.html, located in the text subdirectory of the files directory.
-    3. The file index.html, located in the other directory in your parent directory. [Hint:.. signifies parent directory.]
-    4. The President’s e-mail address (president@whitehouse.gov).
-    5. The file named README in the pub directory of ftp.cdrom.com. [Hint: Use ftp://.]
-            a. this should be in a <nav>
-                make this a note on the discussion
+                ✔ I decided to make my own placeholders for the links to point to @done(20-03-14 09:50)
+                    ✔ ./files/index.html @done(20-03-14 09:52)
+    ✔ 2. The file index.html, located in the text subdirectory of the files directory. @done(20-03-14 09:57)
+            ✔ ./text/index.html @done(20-03-14 09:52)
+    ✔ 3. The file index.html, located in the other directory in your parent directory. [Hint:.. signifies parent directory.] @done(20-03-14 09:57)
+            ✔ ../other/index.html @done(20-03-14 09:53)
+    ✔ 4. The President’s e-mail address (president@whitehouse.gov). @done(20-03-14 09:57)
+            ✔ href="mailto:president@whitehouse.gov" @done(20-03-14 09:57)
+    ✔ 5. The file named README in the pub directory of ftp.cdrom.com. [Hint: Use ftp://.] @done(20-03-14 09:57)
+            ✔ href="ftp://ftp.cdrom.com" @done(20-03-14 09:57)
+            ✔ a. this should be in a <nav> @done(20-03-14 09:56)
             ✘ b. style as header component? @cancelled(20-03-14 08:44)
-            ✘ c. colors? @cancelled(20-03-14 08:44)
+            ✔ c. colors for broken link? @done(20-03-14 10:01)
