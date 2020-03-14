@@ -11,3 +11,8 @@ This will also allow me to refer back to my TODO files to see what my thought pr
 ### Pull Requests
 
 I am also going to use this as an opportunity to learn more about branching and making pull requests.
+
+### Publish Links
+
+<a href="http://prism.troy.edu/rcoones/CS4443/homework1/">Homework Assignment 1</a>
+Tables and Form Controls
