@@ -1,0 +1,15 @@
+☐ 2.5 Create a link to each of the following:
+    1. The file index.html, located in the files directory.
+            where is this file located?
+                ✘ maybe it was in a previous question? @cancelled(20-03-14 08:42)
+                ✘ maybe they are in the source files? @cancelled(20-03-14 08:44)
+                maybe its just the markup and not something to publish?
+                    i am going to operate under this assumption
+    2. The file index.html, located in the text subdirectory of the files directory.
+    3. The file index.html, located in the other directory in your parent directory. [Hint:.. signifies parent directory.]
+    4. The President’s e-mail address (president@whitehouse.gov).
+    5. The file named README in the pub directory of ftp.cdrom.com. [Hint: Use ftp://.]
+            a. this should be in a <nav>
+                make this a note on the discussion
+            ✘ b. style as header component? @cancelled(20-03-14 08:44)
+            ✘ c. colors? @cancelled(20-03-14 08:44)

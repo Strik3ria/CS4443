@@ -1,0 +1,22 @@
+table,
+td {
+  width: 80%;
+  border: 1px solid black;
+}
+
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+img {
+  width: 300px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p {
+  margin: 2px;
+}

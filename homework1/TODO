@@ -1,0 +1,28 @@
+✔ Page 74/ 2.14: Create the HTML5 markup that produces the table shown in Fig. 2.18. @done(20-03-12 18:49)
+     ✔ a. Use <em> and <strong> tags as necessary. @done(20-03-12 18:48)
+        ✔ chose font-weight: bold instead of strong @done(20-03-12 19:08)
+        ✔ <em> used @done(20-03-12 19:08)
+     ✔ b. Please see the attached image (camel.png). @done(20-03-12 18:48)
+            ✔ maybe use an assets folder @done(20-03-12 19:09)
+                ✔ this is in the zip file named: hm1_data.zip @done(20-03-12 19:09)
+            ✔ add styles.css as well, for completion sake? @done(20-03-12 19:09)
+
+✔ Page 104/ 3.8 (Creating an Autocomplete Form with a datalist) @done(20-03-12 19:11)
+    ✔ a. Create an autocomplete input element with an associated datalist that contains the days of the week. @done(20-03-12 19:11)
+    ✔ b. (Use firefox to test) @done(20-03-12 19:11)
+            i dont have firefox, using chrome for debugging
+
+✔ a. Please see the attached pictures for how homework should look like:    hm1_data.zip @done(20-03-12 19:04)
+
+
+✔ b. For homework which are required to be published by using your web hosting account, @done(20-03-12 19:06)
+    you should submit the internet address to me (the instructions can be found in
+    modules->week1->"Getting start on html5 and FileZilla" ). 
+
+✔ c. 0 will be assigned if you just attach the local files. @done(20-03-12 19:06)
+    Please also attach a zip which contains all the source files when 
+    you submit the homework.
+
+d. html5 validator
+    ✔ http://validator.w3.org/#validate-by-upload @done(20-03-12 19:05)
+    http://html5.validator.nu/
