@@ -16,3 +16,6 @@ I am also going to use this as an opportunity to learn more about branching and 
 
 <a href="http://prism.troy.edu/rcoones/CS4443/homework1/">Homework Assignment 1</a>
 Tables and Form Controls
+
+<a href="http://prism.troy.edu/rcoones/cs4443/discussion1/html/index.html">Discussion assignment 1</a>
+Anchor Links
