@@ -21,9 +21,10 @@ Tables and Form Controls
 Anchor Links
 
 <a href="http://prism.troy.edu/rcoones/CS4443/homework2/project1/">Homework Assignment 2 part 1</a>
-Flexbox and CSS
+Links with style
 
 <a href="http://prism.troy.edu/rcoones/CS4443/homework2/project2/">Homework Assignment 2 part 2</a>
-CSS Tranform
+Flexbox and CSS
 
 <a href="http://prism.troy.edu/rcoones/CS4443/discussion2/">Discussion assignment 2</a>
+CSS Tranform
