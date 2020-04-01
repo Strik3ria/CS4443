@@ -54,7 +54,16 @@
 
         const getCircumference = (radius) => 2 * pi * radius;
 
-        const getArea = (radius) => pi * radius * 2;
+        const getArea = (radius) => pi * power(radius, 2);
+
+        const power = (baseInput, exponentInput) => {
+            let result = baseInput;
+            for (exponentInput; exponentInput > 1; exponentInput--) {
+                result *= baseInput;
+            }
+
+            return result;
+        }
     </script>
 </body>
 
