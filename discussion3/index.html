@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Formulas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="text-center">
+        <div class="form-group mt-3">
+            <label>Radius: </label>
+            <input id="radiusInput" style="width: 150px;align-content: center;" type="text">
+            <small class="form-text text-muted">Enter the radius of your circle above.</small>
+        </div>
+        <button id="calcButton" type="button" class="btn btn-primary">Calculate</button>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <label for="diameter">Diameter:</label>
+                    <label id="diameter"></label>
+                </div>
+                <div class="col">
+                    <label for="circumference">Circumference:</label>
+                    <label id="circumference"></label>
+                </div>
+                <div class="col">
+                    <label for="area">Area:</label>
+                    <label id="area"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("#calcButton").click(() => {
+            userInput = +$("#radiusInput").val();
+
+            $("#diameter").text(getDiameter(userInput).toFixed(2));
+            $("#circumference").text(getCircumference(userInput).toFixed(2));
+            $("#area").text(getArea(userInput).toFixed(2));
+        })
+
+        const pi = Math.PI;
+
+        const getDiameter = (radius) => 2 * radius;
+
+        const getCircumference = (radius) => 2 * pi * radius;
+
+        const getArea = (radius) => pi * radius * 2;
+    </script>
+</body>
+
+</html>
