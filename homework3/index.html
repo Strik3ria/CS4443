@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="text-center">
+        <div class="form-group mt-3 ml-3" style="text-align: center;">
+            <label for="userInput">Temperature: </label>
+            <input type="number" style="width:100px;align-content:center;" id="userInput" required>
+            <small class="form-text text-muted">Enter your temperature then select a button to
+                convert!</small>
+        </div>
+        <button id="celcius" class="btn btn-primary ml-3">To Celcius</button>
+        <button id="fahrenheit" class="btn btn-primary ml-3">To Fahrenheit</button>
+        <br>
+        <label id="tempLabel" class="mt-5"></label>
+    </div>
+
+    <div class="text-center">
+        <div class="form-group mt-3 ml-3" style="text-align: center;">
+            <label for="baseInput">Base: </label>
+            <input type="number" style="width:100px;align-content:center;" id="baseInput" required>
+            <label for="exponentInput">Exponent: </label>
+            <input type="number" style="width:100px;align-content:center;" id="exponentInput" required>
+            <small class="form-text text-muted">Enter the base number and the number of the power you
+                want it raised to.</small>
+        </div>
+        <button id="calcButton" class="btn btn-primary ml-3">Calculate</button>
+        <br>
+        <label id="powerLabel" class="mt-5"></label>
+    </div>
+
+    <script>
+        $("#celcius").click(() => {
+            let userInput = +$("#userInput").val();
+            let message = userInput + " fahrenheit converted to celcius is ";
+
+            $("#tempLabel").text(message + toCelcius(userInput).toFixed(2));
+        });
+
+        $("#fahrenheit").click(() => {
+            let userInput = +$("#userInput").val();
+            let message = userInput + " celcius converted to fahrenheit is ";
+
+            $("#tempLabel").text(message + toFahrenheit(userInput).toFixed(2));
+        });
+
+        $("#calcButton").click(() => {
+            let baseInput = +$("#baseInput").val();
+            let exponentInput = +$("#exponentInput").val();
+            let result = power(baseInput, exponentInput);
+            let message = (baseInput + " raised to the power " + exponentInput + " is " + result);
+
+            $("#powerLabel").text(message);
+        })
+
+        const toCelcius = (fTemp) => 5.0 / 9.0 * (fTemp - 32);
+
+        const toFahrenheit = (cTemp) => 9.0 / 5.0 * cTemp + 32;
+
+        const power = (baseInput, exponentInput) => {
+            let result = baseInput;
+            for (exponentInput; exponentInput > 1; exponentInput--) {
+                result *= baseInput;
+            }
+
+            return result;
+        }
+    </script>
+</body>
+
+</html>
