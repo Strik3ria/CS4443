@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        p {
+            margin: 0;
+        }
+
+        a {
+            margin: 0;
+            display: block;
+            cursor: pointer;
+            color: darkblue;
+        }
+
+        #sample-text {
+            margin-bottom: 20px;
+        }
+
+        .gray-background {
+            background-color: gray;
+        }
+
+        .white-background {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body class="white-background">
+    <p id="sample-text">Some sample text.</p>
+
+    <p>Options:</p>
+    <a id="gray-background">Gray background</a>
+    <a id="white-background">White background</a>
+    <a id="sans-serifText">Sans-serif text</a>
+    <a id="serif-text">Serif text</a>
+
+    <script>
+        currentColor = 'white';
+
+        $("#gray-background").click(() => {
+            if (currentColor === 'white') {
+                $('body').toggleClass('white-background');
+                $('body').toggleClass('gray-background');
+                currentColor = 'gray';
+            }
+        })
+
+        $("#white-background").click(() => {
+            if (currentColor === 'gray') {
+                $('body').toggleClass('gray-background');
+                $('body').toggleClass('white-background');
+                currentColor = 'white';
+            }
+        })
+
+        $("#sans-serifText").click(() => {
+            $("#sample-text").css('font-family', 'sans-serif');
+        })
+
+        $("#serif-text").click(() => {
+            $("#sample-text").css('font-family', 'serif');
+        })
+    </script>
+</body>
+
+</html>
