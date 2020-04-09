@@ -1,0 +1,3 @@
+✔ 12.5 Write a script that contains a button and a @done(20-04-09 16:27)
+    counter in a div. The button’s event handler
+    should increment the counter each time it’s clicked.
