@@ -1,0 +1,22 @@
+19.8 Write a PHP script that tests whether an e-mail
+        address is input correctly. Verify that the input
+        begins with series of characters, followed by
+        the @ character, another series of characters,
+        a period (.) and a final series of characters. Test
+        your program, using both valid and invalid e-mail addresses.
+
+19.9 Write a PHP script that obtains a URL and its
+        description from a user and stores the information
+        into a database using MySQL. Create and run a SQL
+        script with a database named URL and a table named
+        Urltable. The first field of the table should contain
+        an actual URL, and the second, which is named Description,
+        should contain a description of the URL. Use
+        www.deitel.com as the first URL, and input Cool site!
+        as its description. The second URL should be www.php.net,
+        and the description should be The official PHP site.
+        After each new URL is submitted, print the contents
+        of the database in a table. [Note: Follow the instructions
+        in Section 18.5.2 to create the Url database by
+        using the URLs.sql script that’s provided with this
+        chapter’s examples in the dbscripts folder.]
